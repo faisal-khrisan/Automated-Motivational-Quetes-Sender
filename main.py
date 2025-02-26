@@ -2,7 +2,6 @@ import random
 import smtplib
 import datetime as dt
 
-from sqlalchemy.testing.suite.test_reflection import users
 
 # Todo.1 open quotes file and make list
 with open ("quotes.txt","r" , encoding="utf-8") as file :
